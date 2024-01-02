@@ -1,0 +1,24 @@
+.blur-image {
+  filter: blur(1px);
+  /* Ajoutez le flou désiré ici */
+  transition: filter 0.5s ease;
+  /* Ajoutez une transition pour une animation fluide */
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px){
+  .home div div{
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width:992px) {
+  .home div div{
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .home div div{
+    margin-top: 40px;
+  }
+}
